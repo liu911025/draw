@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T14:09:20.788Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="pduKqRxUsls4oge3x65f" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T14:32:34.764Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="doUm49LzSmD07G5nIHPg" version="14.2.7" type="github">
   <diagram id="E-zeXJ4_sD5peonB0QX5" name="Page-1">
     <mxGraphModel dx="2721" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,49 @@
           <mxGeometry x="-790" y="1630" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nTe1SbdjQn99EuHagE9e-16" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;AbstractJerseyEurekaHttpClient&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;register(InstanceInfo info)&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-805" y="1890" width="285" height="60" as="geometry" />
+          <mxGeometry x="-805" y="1900" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-18" value="注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1840" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-19" target="nTe1SbdjQn99EuHagE9e-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-19" value="服务端接收注册" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.483;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-22" target="nTe1SbdjQn99EuHagE9e-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-22" value="spring-cloud-netfix-eureka-client&lt;br&gt;spring.factories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="2210" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-24" target="nTe1SbdjQn99EuHagE9e-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-24" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;EurekaServerAutoConfiguration&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;jerseyFilterRegistration(javax.ws.rs.core.Application eurekaJerseyApp)&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2360" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-26" target="nTe1SbdjQn99EuHagE9e-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-26" value="配置文件配置日志打印级别为debug&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;logging&lt;/span&gt;:&lt;br&gt;  &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;level&lt;/span&gt;:&lt;br&gt;    &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;org.springframework.cloud.netflix&lt;/span&gt;: debug&lt;br&gt;    &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;com.netflix&lt;/span&gt;: debug&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2530" width="580" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-28" target="nTe1SbdjQn99EuHagE9e-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-28" value="找到日志中返回的接收renew的日志&lt;br&gt;&lt;div&gt;2021-01-28 22:17:53.924 DEBUG 37720 --- [nio-8762-exec-9] c.n.eureka.resources.InstanceResource&amp;nbsp; &amp;nbsp; : Found (Renew): EUREKA-CLIENT-PROVIDER - eureka-client-provider:192.168.24.1:8080; reply status=200&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="2760" width="410" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-30" target="nTe1SbdjQn99EuHagE9e-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-30" value="搜索类InstanceResource,在类中查找Found (Renew),&lt;br&gt;找到&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;renewLease方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="2970" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;ApplicationResource&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-621.5" y="3160" width="303" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
