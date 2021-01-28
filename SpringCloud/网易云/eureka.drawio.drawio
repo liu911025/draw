@@ -1,17 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T13:20:50.035Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="TsJfbfRPtfeaPMLzBVBS" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T13:26:51.441Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="HYy-sgLZQeWBFlrco8zA" version="14.2.7" type="github">
   <diagram id="E-zeXJ4_sD5peonB0QX5" name="Page-1">
-    <mxGraphModel dx="1894" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2721" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kqntZB6sAMNFrYoyA4aj-3" value="服务端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="260" y="20" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.476;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kqntZB6sAMNFrYoyA4aj-4" target="kqntZB6sAMNFrYoyA4aj-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-4" value="spring-cloud-netfix-eureka-client&lt;br&gt;spring.factories" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="50" width="240" height="60" as="geometry" />
+          <mxGeometry x="290" y="40" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kqntZB6sAMNFrYoyA4aj-5" target="kqntZB6sAMNFrYoyA4aj-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -20,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-5" value="EurekaClientAutoConfiguration" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="190" width="250" height="80" as="geometry" />
+          <mxGeometry x="290" y="185" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.537;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kqntZB6sAMNFrYoyA4aj-7" target="kqntZB6sAMNFrYoyA4aj-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -35,10 +32,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-12" value="&lt;br&gt;&lt;br&gt;&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12pt ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;InstanceInfoFactory.create()&lt;/pre&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="490" width="410" height="60" as="geometry" />
+          <mxGeometry x="220" y="510" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-14" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;EurekaInstanceConfigBean&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="880" width="400" height="60" as="geometry" />
+          <mxGeometry x="225" y="920" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-16" value="eureka.instance实例信息配置类&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #008000 ; font-weight: bold&quot;&gt;eureka.instance&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="790" width="190" height="70" as="geometry" />
@@ -52,8 +49,8 @@
         <mxCell id="6nmnl3a9_LXXylR-NsBW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kqntZB6sAMNFrYoyA4aj-18" target="6nmnl3a9_LXXylR-NsBW-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kqntZB6sAMNFrYoyA4aj-18" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;eurekaClient()&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;CloudEurekaClient&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="200" width="190" height="70" as="geometry" />
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-18" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;eurekaClient(ApplicationInfoManager manager,EurekaClientConfig config&lt;span style=&quot;font-size: 12pt ; font-family: &amp;#34;helvetica&amp;#34; ; white-space: normal&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;CloudEurekaClient&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-605" y="195" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kqntZB6sAMNFrYoyA4aj-20" value="eureka-client实例化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="200" width="80" height="20" as="geometry" />
@@ -89,19 +86,19 @@
         <mxCell id="kqntZB6sAMNFrYoyA4aj-29" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;HeartbeatThread&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;run()&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;renew()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-510" y="1169" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6nmnl3a9_LXXylR-NsBW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6nmnl3a9_LXXylR-NsBW-3" edge="1">
+        <mxCell id="6nmnl3a9_LXXylR-NsBW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6nmnl3a9_LXXylR-NsBW-3" edge="1" target="kqntZB6sAMNFrYoyA4aj-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="335" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6nmnl3a9_LXXylR-NsBW-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;interface &lt;/span&gt;EurekaInstanceConfig&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="690" width="410" height="60" as="geometry" />
+          <mxGeometry x="220" y="710" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6nmnl3a9_LXXylR-NsBW-6" value="实现类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="760" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6nmnl3a9_LXXylR-NsBW-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;EurekaClientConfigBean&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;client配置类&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="205" width="220" height="60" as="geometry" />
+          <mxGeometry x="-1110" y="200" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6nmnl3a9_LXXylR-NsBW-9" value="心跳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="1110" width="40" height="20" as="geometry" />
