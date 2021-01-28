@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T13:44:42.924Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="Gn-ElSMLoP2c_KFV8ceO" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T13:49:27.776Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="Y9On35Sx6zGtw45GhL4z" version="14.2.7" type="github">
   <diagram id="E-zeXJ4_sD5peonB0QX5" name="Page-1">
     <mxGraphModel dx="2721" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,6 +102,9 @@
         </mxCell>
         <mxCell id="6nmnl3a9_LXXylR-NsBW-9" value="心跳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="1110" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-1" value="&lt;h1&gt;注册流程:&lt;/h1&gt;&lt;p&gt;客服端启动时会初始化一些定时任务,如果服务需要注册到服务端,客户端会先向服务端发送一次心跳,如果返回的状态码是404, 会想服务端注册&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="1100" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
