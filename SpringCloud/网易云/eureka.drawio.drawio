@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T14:32:34.764Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="doUm49LzSmD07G5nIHPg" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T22:18:28.151Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="qSBc6BH9HBZDAmq3_JYo" version="14.2.7" type="github">
   <diagram id="E-zeXJ4_sD5peonB0QX5" name="Page-1">
     <mxGraphModel dx="2721" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,10 +181,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nTe1SbdjQn99EuHagE9e-30" value="搜索类InstanceResource,在类中查找Found (Renew),&lt;br&gt;找到&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;renewLease方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="2970" width="400" height="60" as="geometry" />
+          <mxGeometry x="-670" y="2930" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nTe1SbdjQn99EuHagE9e-32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;ApplicationResource&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-621.5" y="3160" width="303" height="60" as="geometry" />
+        <mxCell id="nTe1SbdjQn99EuHagE9e-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-32" target="nTe1SbdjQn99EuHagE9e-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;ApplicationResource&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;addInstance(InstanceInfo info,@HeaderParam&lt;span style=&quot;font-size: 12pt&quot;&gt;(PeerEurekaNode.&lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; color: rgb(102 , 14 , 122) ; font-weight: bold ; font-style: italic&quot;&gt;HEADER_REPLICATION&lt;/span&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;)String isReplication&lt;/span&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;){&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;...&lt;/pre&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;registry&lt;/span&gt;.register(info, &lt;span style=&quot;color: #008000 ; font-weight: bold&quot;&gt;&quot;true&quot;&lt;/span&gt;.equals(isReplication));&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;...&lt;/pre&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="3050" width="820" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-34" target="nTe1SbdjQn99EuHagE9e-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-34" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;InstanceRegistry&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #808000&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public void &lt;/span&gt;register(InstanceInfo info, &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;int &lt;/span&gt;leaseDuration, &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;boolean &lt;/span&gt;isReplication) {&lt;br&gt;   handleRegistration(info, leaseDuration, isReplication);&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;super&lt;/span&gt;.register(info, leaseDuration, isReplication);&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="3340" width="720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-36" value="一路跟踪register方法实现啊" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="3280" width="103" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-37" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;AbstractInstanceRegistry&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;private final &lt;/span&gt;ConcurrentHashMap&amp;lt;String, Map&amp;lt;String, Lease&amp;lt;InstanceInfo&amp;gt;&amp;gt;&amp;gt; &lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;registry&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;        &lt;/span&gt;= &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;ConcurrentHashMap&amp;lt;String, Map&amp;lt;String, Lease&amp;lt;InstanceInfo&amp;gt;&amp;gt;&amp;gt;();&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public void &lt;/span&gt;register(InstanceInfo registrant, &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;int &lt;/span&gt;leaseDuration, &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;boolean &lt;/span&gt;isReplication){&lt;/pre&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-852.5" y="3600" width="765" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-40" value="此方法为具体的注册, 将客服端实例存放到conCurrentHashMap中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="3540" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
