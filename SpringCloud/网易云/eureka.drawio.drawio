@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T13:56:49.487Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="BbEUqNHvjEZVh63ck3G-" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T14:09:20.788Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="pduKqRxUsls4oge3x65f" version="14.2.7" type="github">
   <diagram id="E-zeXJ4_sD5peonB0QX5" name="Page-1">
     <mxGraphModel dx="2721" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,9 @@
         <mxCell id="nTe1SbdjQn99EuHagE9e-11" value="return true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-345" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nTe1SbdjQn99EuHagE9e-12" target="nTe1SbdjQn99EuHagE9e-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nTe1SbdjQn99EuHagE9e-12" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;register()&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-725" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
@@ -137,6 +140,9 @@
         </mxCell>
         <mxCell id="nTe1SbdjQn99EuHagE9e-15" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;宋体&amp;#34; ; font-size: 12.0pt&quot;&gt;httpResponse.getStatusCode()==404&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-790" y="1630" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTe1SbdjQn99EuHagE9e-16" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;AbstractJerseyEurekaHttpClient&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;register(InstanceInfo info)&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="1890" width="285" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
