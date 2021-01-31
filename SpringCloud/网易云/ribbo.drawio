@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T09:57:01.203Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="Cq3n_XSiS3YG98sdNPF1" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T10:08:44.765Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="mu7Vz2_240aOsCngjMg4" version="14.2.7" type="github">
   <diagram id="s-E9I-J_Y93IWlwAKrD2" name="Page-1">
-    <mxGraphModel dx="1894" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1894" dy="1655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,48 @@
         </mxCell>
         <mxCell id="WCGH3zQjEyVRS78NS4z2-24" value="创建了&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;RibbonClientConfiguration&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-220" y="340" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-25" target="WCGH3zQjEyVRS78NS4z2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-25" value="ribbo组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-27" target="WCGH3zQjEyVRS78NS4z2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-27" value="eureka继承ribbo&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-28" target="WCGH3zQjEyVRS78NS4z2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-28" value="spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar&lt;br&gt;spring.factories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="110" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-30" target="WCGH3zQjEyVRS78NS4z2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-30" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #008000 ; font-weight: bold&quot;&gt;RibbonEurekaAutoConfiguration&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-32" target="WCGH3zQjEyVRS78NS4z2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #808000&quot;&gt;@Configuration&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808000&quot;&gt;@EnableConfigurationProperties&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808000&quot;&gt;@ConditionalOnRibbonAndEurekaEnabled&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808000&quot;&gt;@AutoConfigureAfter&lt;/span&gt;(RibbonAutoConfiguration.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;)&lt;br&gt;&lt;span style=&quot;color: #808000&quot;&gt;@RibbonClients&lt;/span&gt;(defaultConfiguration = EurekaRibbonClientConfiguration.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;)&lt;br&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public class &lt;/span&gt;RibbonEurekaAutoConfiguration {&lt;br&gt;&lt;br&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="365" width="660" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-34" target="WCGH3zQjEyVRS78NS4z2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-34" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;EurekaRibbonClientConfiguration&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="620" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-36" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #808000&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808000&quot;&gt;@ConditionalOnMissingBean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public &lt;/span&gt;IPing ribbonPing(IClientConfig config) {&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;propertiesFactory&lt;/span&gt;.isSet(IPing.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;serviceId&lt;/span&gt;)) {&lt;br&gt;      &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;propertiesFactory&lt;/span&gt;.get(IPing.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;, config, &lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;serviceId&lt;/span&gt;);&lt;br&gt;   }&lt;br&gt;   NIWSDiscoveryPing ping = &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;NIWSDiscoveryPing();&lt;br&gt;   ping.initWithNiwsConfig(config);&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return &lt;/span&gt;ping;&lt;br&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="560" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-38" value="定义Ping的规则,为配置默认为NIWSDiscoveryConfig" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="620" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
