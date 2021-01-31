@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T09:23:56.715Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="WRG0YTIXsww3X5Zo1wxf" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T09:43:39.894Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="rVJkdzbCfBC31V9xBdD8" version="14.2.7" type="github">
   <diagram id="s-E9I-J_Y93IWlwAKrD2" name="Page-1">
     <mxGraphModel dx="1067" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,6 +11,9 @@
           <mxGeometry x="260" y="90" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WCGH3zQjEyVRS78NS4z2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-2" target="WCGH3zQjEyVRS78NS4z2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-2" target="WCGH3zQjEyVRS78NS4z2-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WCGH3zQjEyVRS78NS4z2-2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #008000 ; font-weight: bold&quot;&gt;RibbonAutoConfiguration&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -33,6 +36,30 @@
         </mxCell>
         <mxCell id="WCGH3zQjEyVRS78NS4z2-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;protected &lt;/span&gt;AnnotationConfigApplicationContext createContext(String name){&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;//创建父子容器&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="630" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-11" target="WCGH3zQjEyVRS78NS4z2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #808000&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808000&quot;&gt;@ConditionalOnMissingBean&lt;/span&gt;(LoadBalancerClient.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;)&lt;br&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public &lt;/span&gt;LoadBalancerClient loadBalancerClient() {&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return new &lt;/span&gt;RibbonLoadBalancerClient(springClientFactory());&lt;br&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-13" target="WCGH3zQjEyVRS78NS4z2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-13" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #808000&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public &lt;/span&gt;ServiceInstance choose(String serviceId) {&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return &lt;/span&gt;choose(serviceId, &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;null&lt;/span&gt;);&lt;br&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="530" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCGH3zQjEyVRS78NS4z2-15" target="WCGH3zQjEyVRS78NS4z2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-15" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public &lt;/span&gt;ServiceInstance choose(String serviceId, Object hint) {&lt;br&gt;   Server server = getServer(getLoadBalancer(serviceId), hint);&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;if &lt;/span&gt;(server == &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;null&lt;/span&gt;) {&lt;br&gt;      &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return null&lt;/span&gt;;&lt;br&gt;   }&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return new &lt;/span&gt;RibbonServer(serviceId, server, isSecure(server, serviceId),&lt;br&gt;         serverIntrospector(serviceId).getMetadata(server));&lt;br&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="770" width="610" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-17" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;protected &lt;/span&gt;AnnotationConfigApplicationContext getContext(String name) {&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;if &lt;/span&gt;(!&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;contexts&lt;/span&gt;.containsKey(name)) {&lt;br&gt;      &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;synchronized &lt;/span&gt;(&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;contexts&lt;/span&gt;) {&lt;br&gt;         &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;if &lt;/span&gt;(!&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;contexts&lt;/span&gt;.containsKey(name)) {&lt;br&gt;            &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;contexts&lt;/span&gt;.put(name, createContext(name));&lt;br&gt;         }&lt;br&gt;      }&lt;br&gt;   }&lt;br&gt;   &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;return this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;contexts&lt;/span&gt;.get(name);&lt;br&gt;}&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="940" width="590" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WCGH3zQjEyVRS78NS4z2-19" value="跟踪&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;getLoadBalancer(serviceId)方法到&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;NamedContextFactory&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="800" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
