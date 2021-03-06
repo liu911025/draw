@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T09:55:28.264Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="hNpsNCOqaioOz1RGBA2p" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T09:57:07.977Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="WRQzfbmaTbL6VxaXonhs" version="14.4.4" type="github">
   <diagram id="hkvzJ1Qbtt_VEh6L3i7m" name="Page-1">
     <mxGraphModel dx="1067" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,14 @@
         <mxCell id="jfEtK6qB1HRriWUn4HYl-12" value="创建EurekaClient时&lt;br&gt;将服务实例管理, 服务实例, EurekaClientConfig配置, &lt;br&gt;网络通信配置TransportConfig&lt;br&gt;都保存下来" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1330" y="340" width="230" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jfEtK6qB1HRriWUn4HYl-14" target="jfEtK6qB1HRriWUn4HYl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jfEtK6qB1HRriWUn4HYl-14" value="&lt;font style=&quot;font-size: 12px&quot;&gt;如果要获取实例和服务注册的话会各自创建一个ThresholdLevelsMetric和一些Monitor&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1310" y="480" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-16" value="创建三个线程池:&lt;br&gt;&lt;div&gt;1. 创建支持调度的线程池;&lt;/div&gt;&lt;div&gt;2. 创建支持心跳的线程池;&lt;/div&gt;&lt;div&gt;3. 创建刷新注册实例信息缓存的线程池;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="480" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
