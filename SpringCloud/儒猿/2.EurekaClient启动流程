@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T09:36:52.420Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" version="14.4.4" etag="E6nHEPtppW5x3TX5Vsvc" type="github"><diagram id="hkvzJ1Qbtt_VEh6L3i7m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-06T09:44:25.277Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="6KIeRPnMYujBCR46uNN_" version="14.4.4" type="github">
+  <diagram id="hkvzJ1Qbtt_VEh6L3i7m" name="Page-1">
+    <mxGraphModel dx="1067" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jfEtK6qB1HRriWUn4HYl-1" target="jfEtK6qB1HRriWUn4HYl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;eureka-examples模块&lt;br&gt;ExampleEurekaClient&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfEtK6qB1HRriWUn4HYl-2" target="jfEtK6qB1HRriWUn4HYl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-2" value="加载eureka-client.properties文件,&lt;br&gt;构建EurekaInstanceConfig服务实例配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfEtK6qB1HRriWUn4HYl-4" target="jfEtK6qB1HRriWUn4HYl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-4" value="根据EurekaInstanceConfig服务实例&lt;br&gt;配置构建EurekaInstance服务实例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="187.5" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-6" value="基于EurekaInstanceConfig服务实例配置&lt;br&gt;&lt;div&gt;&lt;span&gt;和EurekaInstance服务实例&lt;/span&gt;&lt;/div&gt;构建服务实例管理ApplicationInfoManager" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="190" width="260" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
