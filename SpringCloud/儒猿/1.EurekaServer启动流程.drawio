@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:48:47.768Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="Bh9iPXyaXabzs0Ff9scC" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:57:00.341Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="DIH0D-vatI4GMxNpKH1C" version="14.2.9" type="github">
   <diagram id="sQ6djOb2pGjh4PNV8spg" name="Page-1">
     <mxGraphModel dx="1067" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,20 +52,26 @@
         <mxCell id="tDibTG8U5VY8NC5ciB29-15" value="创建一个EurekaServer集群信息&lt;br&gt;PeerEurekaNodes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245.01" y="950" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="tDibTG8U5VY8NC5ciB29-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDibTG8U5VY8NC5ciB29-17" target="tDibTG8U5VY8NC5ciB29-19">
+        <mxCell id="tDibTG8U5VY8NC5ciB29-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDibTG8U5VY8NC5ciB29-17" target="tDibTG8U5VY8NC5ciB29-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDibTG8U5VY8NC5ciB29-17" value="&lt;font style=&quot;font-size: 14px&quot;&gt;创建一个包含eurekaServer服务所有信息的上下文&lt;br&gt;EurekaServerContext&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tDibTG8U5VY8NC5ciB29-17" value="&lt;font style=&quot;font-size: 14px&quot;&gt;基于EurekaServerConfig, 注册表, EurekaServer集群, 服务实例管理&amp;nbsp;&lt;br&gt;创建一个包含eurekaServer服务所有信息的上下文&lt;br&gt;EurekaServerContext&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="217.51" y="1110" width="274.99" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tDibTG8U5VY8NC5ciB29-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDibTG8U5VY8NC5ciB29-19" target="tDibTG8U5VY8NC5ciB29-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tDibTG8U5VY8NC5ciB29-19" value="从相邻的EurekaServer服务节点负责注册表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1280" width="270" height="60" as="geometry" />
+          <mxGeometry x="220.01" y="1450" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDibTG8U5VY8NC5ciB29-21" value="&lt;font style=&quot;font-size: 14px&quot;&gt;注册所有监视统计信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="272.5" y="1410" width="165" height="60" as="geometry" />
+          <mxGeometry x="272.51" y="1590" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDibTG8U5VY8NC5ciB29-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tDibTG8U5VY8NC5ciB29-23" target="tDibTG8U5VY8NC5ciB29-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDibTG8U5VY8NC5ciB29-23" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;初始化EurekaServerContext&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.更新EurekaServer集群信息,并创建定时任务定时更新&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.基于EurekaServer集群信息初始化注册表&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170.01" y="1270" width="370" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
