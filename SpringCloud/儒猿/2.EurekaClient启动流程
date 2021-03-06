@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T09:48:06.379Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="-dkL-5ICZce2TWsyA2Kc" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T09:51:45.012Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="LaAR37nm8ydq9v5aO2JL" version="14.4.4" type="github">
   <diagram id="hkvzJ1Qbtt_VEh6L3i7m" name="Page-1">
     <mxGraphModel dx="1067" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,14 @@
         <mxCell id="jfEtK6qB1HRriWUn4HYl-8" value="&lt;span&gt;加载eureka-client.properties文件,&lt;/span&gt;&lt;br&gt;&lt;span&gt;构建EurekaClientConfig&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="195" width="220" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jfEtK6qB1HRriWUn4HYl-10" target="jfEtK6qB1HRriWUn4HYl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jfEtK6qB1HRriWUn4HYl-10" value="基于ApplicationInfoManager和EurekaClientConfig&lt;br&gt;创建EurekaClient子类(DiscoveryClient)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1330" y="180" width="230" height="108.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jfEtK6qB1HRriWUn4HYl-12" value="创建EurekaClient时&lt;br&gt;将服务实例管理, 服务实例, EurekaClientConfig配置, &lt;br&gt;网络通信配置TransportConfig&lt;br&gt;都保存下来" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="360" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
